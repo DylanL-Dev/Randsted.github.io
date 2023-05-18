@@ -10,6 +10,8 @@
   src: url(/Fonts/Garrison_Sans_Regular.ttf) format("truetype");
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Candal&display=swap');
+
 /*END FONT*/
 
 a {

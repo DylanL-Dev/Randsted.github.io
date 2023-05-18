@@ -1,13 +1,15 @@
 /*FONT*/
 @font-face {
   font-family: "IntegralCF-Bold";
-  src: url(/Fonts/Integral/Webfont/IntegralCF-Bold.woff2);
+  src: url(/Fonts/Integral/Webfont/IntegralCF-Bold.woff2) format('woff2'),
+       url(/Fonts/Integral/Webfont/IntegralCF-Bold.woff) format('woff');
 }
 
 @font-face {
   font-family: "Garrison_Regular";
-  src: url(/Fonts/Garrison_Sans_Regular/Garrison_Sans_Regular.ttf);
+  src: url(/Fonts/Garrison_Sans_Regular/Garrison_Sans_Regular.ttf) format('truetype');
 }
+
 /*END FONT*/
 
 a {

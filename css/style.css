@@ -596,7 +596,7 @@ header {
     margin: 15px;
   }
 }
-/*MOBILE DE PETITE TAILLE*/
+/*POUR LES MOBILES DE PETITE TAILLE*/
 @media screen and (min-width: 319px) and (max-width: 375px) {
   .navbar_logo {
     font-size: 20px;
@@ -682,4 +682,4 @@ header {
     margin: 8px !important;
   }
 }
-/*END MOBILE DE PETITE TAILLE*/
+/*END POUR LES MOBILES DE PETITE TAILLE*/

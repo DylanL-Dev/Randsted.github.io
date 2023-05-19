@@ -9,11 +9,6 @@
   src: url(/Fonts/Garrison_Sans_Regular.ttf) format("truetype");
 }
 
-@font-face {
-  font-family: "RussoOne-Regular";
-  src: url(/Fonts/RussoOne-Regular.ttf) format("truetype");
-}
-
 /*END FONT*/
 
 a {
@@ -114,7 +109,7 @@ header {
 
   .name h1 {
     font-size: 13px;
-    font-family: "IntegralCF-Bold", "RussoOne-Regular", sans-serif; /*MY NAME*/
+    font-family: "IntegralCF-Bold"; /*MY NAME*/
     color: black;
   }
   .name_web_site {
@@ -122,7 +117,7 @@ header {
   }
 
   .name_web_site h2 {
-    font-family: "IntegralCF-Bold", "RussoOne-Regular", sans-serif;
+    font-family: "IntegralCF-Bold";
     line-height: 5px;
     font-size: 55px;
     color: black;
@@ -164,7 +159,7 @@ header {
 
   .btn_header h3 {
     color: #dfff00;
-    font-family: "IntegralCF-Bold", "RussoOne-Regular", sans-serif; /*BOUTON HEADER*/
+    font-family: "Garrison_Regular"; /*BOUTON HEADER*/
     font-size: 30px;
     padding-left: 25px;
   }
@@ -234,7 +229,7 @@ header {
     display: inline-block;
     white-space: nowrap;
     padding: 16px 0px;
-    font-family: "IntegralCF-Bold", "RussoOne-Regular", sans-serif;
+    font-family: "IntegralCF-Bold";
     font-size: 23px;
     letter-spacing: 2px;
     color: yellow;
@@ -286,7 +281,7 @@ header {
     line-height: 40px;
   }
   .service_footer h3 {
-    font-family: "IntegralCF-Bold", "RussoOne-Regular", sans-serif;
+    font-family: "IntegralCF-Bold";
     font-size: 50px;
     width: 90%;
     color: #b3b3b3;
@@ -499,7 +494,7 @@ header {
   }
 
   .follow_us h3 {
-    font-family: "IntegralCF-Bold", "RussoOne-Regular", sans-serif;
+    font-family: "IntegralCF-Bold";
     text-align: center;
     font-size: 45px;
   }
@@ -575,7 +570,7 @@ header {
   .name_footer {
     position: absolute;
     margin-top: 110%;
-    font-family: "IntegralCF-Bold", "RussoOne-Regular", sans-serif;
+    font-family: "IntegralCF-Bold";
     padding-right: 52%;
     color: #dfff00;
     font-size: 14px;

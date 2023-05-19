@@ -8,6 +8,14 @@
   font-family: "Garrison_Regular";
   src: url(/Fonts/Garrison_Sans_Regular.ttf) format("truetype");
 }
+/*
+@font-face {
+  font-family: "RussoOne-Regular";
+  src: url(/Fonts/RussoOne-Regular.ttf) format("truetype");
+}*/
+
+@import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Martel+Sans&display=swap");
 
 /*END FONT*/
 
@@ -109,7 +117,7 @@ header {
 
   .name h1 {
     font-size: 13px;
-    font-family: "IntegralCF-Bold"; /*MY NAME*/
+    font-family: "IntegralCF-Bold", "Russo One", sans-serif; /*MY NAME*/
     color: black;
   }
   .name_web_site {
@@ -117,7 +125,7 @@ header {
   }
 
   .name_web_site h2 {
-    font-family: "IntegralCF-Bold";
+    font-family: "IntegralCF-Bold", "Russo One", sans-serif;
     line-height: 5px;
     font-size: 55px;
     color: black;
@@ -134,7 +142,7 @@ header {
   }
 
   .text_header p {
-    font-family: "Garrison_Regular";
+    font-family: "Garrison_Regular", "Martel Sans", sans-serif;
     font-size: 20px;
     color: #0d0d0d;
   }
@@ -159,7 +167,7 @@ header {
 
   .btn_header h3 {
     color: #dfff00;
-    font-family: "Garrison_Regular"; /*BOUTON HEADER*/
+    font-family: "Garrison_Regular", "Martel Sans", sans-serif; /*BOUTON HEADER*/
     font-size: 30px;
     padding-left: 25px;
   }
@@ -186,7 +194,7 @@ header {
   }
 
   .excellence p {
-    font-family: "Garrison_Regular";
+    font-family: "Garrison_Regular", "Martel Sans", sans-serif;
     font-size: 18px;
   }
 
@@ -220,7 +228,7 @@ header {
     top: 780px;
     left: 0;
     width: 100%;
-    height: 63px;
+    height: 65px;
     overflow: hidden;
     background-color: #080808;
   }
@@ -229,7 +237,7 @@ header {
     display: inline-block;
     white-space: nowrap;
     padding: 16px 0px;
-    font-family: "IntegralCF-Bold";
+    font-family: "IntegralCF-Bold", "Russo One", sans-serif;
     font-size: 23px;
     letter-spacing: 2px;
     color: yellow;
@@ -281,7 +289,7 @@ header {
     line-height: 40px;
   }
   .service_footer h3 {
-    font-family: "IntegralCF-Bold";
+    font-family: "IntegralCF-Bold", "Russo One", sans-serif;
     font-size: 50px;
     width: 90%;
     color: #b3b3b3;
@@ -298,22 +306,15 @@ header {
   }
 
   .text_footer p {
-    font-family: "Garrison_Regular";
+    font-family: "Garrison_Regular", "Martel Sans", sans-serif;
     font-size: 17px;
     color: #858585;
   }
 
   .grid_flex {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
     align-items: center;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-
+    justify-content: space-evenly;
     margin: 10px;
   }
 
@@ -322,25 +323,19 @@ header {
   }
 
   .bulle1 {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
     align-items: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
     justify-content: center;
-    width: 63%;
+    width: 45%;
     height: 40px;
     background-color: transparent;
-    border: solid 2px #b3b3b3;
+    border: solid 2px #b3b3b360;
     border-radius: 25px;
   }
 
   .bulle1 p {
     color: #b3b3b3;
-    font-family: "Garrison_Regular";
+    font-family: "Garrison_Regular", "Martel Sans", sans-serif;
     padding: 0 10px;
   }
 
@@ -354,17 +349,17 @@ header {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    width: 63%;
+    width: 45%;
     height: 40px;
     background-color: transparent;
-    border: solid 2px #b3b3b3;
+    border: solid 2px #b3b3b360;
     border-radius: 25px;
     margin: 5px;
   }
 
   .bulle2 p {
     color: #b3b3b3;
-    font-family: "Garrison_Regular";
+    font-family: "Garrison_Regular", "Martel Sans", sans-serif;
     padding: 0 10px;
   }
 
@@ -378,17 +373,17 @@ header {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    width: 63%;
+    width: 45%;
     height: 40px;
     background-color: transparent;
-    border: solid 2px #b3b3b3;
+    border: solid 2px #b3b3b360;
     border-radius: 25px;
     margin: 5px;
   }
 
   .bulle3 p {
     color: #b3b3b3;
-    font-family: "Garrison_Regular";
+    font-family: "Garrison_Regular", "Martel Sans", sans-serif;
     padding: 0 10px;
   }
 
@@ -402,17 +397,17 @@ header {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    width: 63%;
+    width: 45%;
     height: 40px;
     background-color: transparent;
-    border: solid 2px #b3b3b3;
+    border: solid 2px #b3b3b360;
     border-radius: 25px;
     margin: 5px;
   }
 
   .bulle4 p {
     color: #b3b3b3;
-    font-family: "Garrison_Regular";
+    font-family: "Garrison_Regular", "Martel Sans", sans-serif;
     padding: 0 10px;
   }
 
@@ -426,17 +421,17 @@ header {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    width: 63%;
+    width: 45%;
     height: 40px;
     background-color: transparent;
-    border: solid 2px #b3b3b3;
+    border: solid 2px #b3b3b360;
     border-radius: 25px;
     margin: 5px;
   }
 
   .bulle5 p {
     color: #b3b3b3;
-    font-family: "Garrison_Regular";
+    font-family: "Garrison_Regular", "Martel Sans", sans-serif;
     padding: 0 10px;
   }
 
@@ -450,17 +445,17 @@ header {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    width: 63%;
+    width: 45%;
     height: 40px;
     background-color: transparent;
-    border: solid 2px #b3b3b3;
+    border: solid 2px #b3b3b360;
     border-radius: 25px;
     margin: 5px;
   }
 
   .bulle6 p {
     color: #b3b3b3;
-    font-family: "Garrison_Regular";
+    font-family: "Garrison_Regular", "Martel Sans", sans-serif;
     padding: 0 10px;
   }
 
@@ -494,7 +489,7 @@ header {
   }
 
   .follow_us h3 {
-    font-family: "IntegralCF-Bold";
+    font-family: "IntegralCF-Bold", "Russo One", sans-serif;
     text-align: center;
     font-size: 45px;
   }
@@ -510,6 +505,7 @@ header {
     -ms-flex-pack: center;
     justify-content: center;
     position: absolute;
+    margin-bottom: 15%;
     width: 82%;
     height: 75px;
     background-color: black;
@@ -527,7 +523,7 @@ header {
     -ms-flex-pack: center;
     justify-content: center;
     color: #dfff00;
-    font-family: "Garrison_Regular";
+    font-family: "Garrison_Regular", "Martel Sans", sans-serif;
     font-size: 27px;
   }
 
@@ -548,7 +544,7 @@ header {
     border-radius: 35px;
     border: black solid 1px;
     font-weight: 600;
-    margin-top: 45%;
+    margin-top: 35%;
   }
 
   .btn_follow_2 p {
@@ -562,15 +558,15 @@ header {
     -ms-flex-pack: center;
     justify-content: center;
     color: black;
-    font-family: "Garrison_Regular";
+    font-family: "Garrison_Regular", "Martel Sans", sans-serif;
     font-size: 27px;
     font-weight: 600;
   }
 
   .name_footer {
     position: absolute;
-    margin-top: 110%;
-    font-family: "IntegralCF-Bold";
+    margin-top: 105%;
+    font-family: "IntegralCF-Bold", "Russo One", sans-serif;
     padding-right: 52%;
     color: #dfff00;
     font-size: 14px;
@@ -590,7 +586,7 @@ header {
   }
 
   .privacy p {
-    font-family: "Garrison_Regular";
+    font-family: "Garrison_Regular", "Martel Sans", sans-serif;
     color: #dfff00;
     font-size: 12px;
     margin: 15px;
@@ -627,7 +623,7 @@ header {
 
   .grid_flex {
     /* Styles spécifiques pour les smartphones avec une largeur d'écran de 319px à 374px */
-    font-size: 12px;
+    font-size: 13px;
     width: 95%;
   }
 
@@ -640,7 +636,7 @@ header {
   }
 
   .excellence p {
-    font-family: "Garrison_Regular";
+    font-family: "Garrison_Regular", "Martel Sans", sans-serif;
     font-size: 16px;
   }
 
@@ -670,7 +666,7 @@ header {
   }
 
   .btn_follow_2 {
-    margin-bottom: auto;
+    margin-top: 40%;
   }
   .name_footer {
     padding-right: 45% !important;

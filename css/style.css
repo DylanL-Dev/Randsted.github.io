@@ -15,6 +15,7 @@
 }*/
 
 @import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Martel+Sans&display=swap");
 
 /*END FONT*/
 
@@ -141,7 +142,7 @@ header {
   }
 
   .text_header p {
-    font-family: "Garrison_Regular";
+    font-family: "Garrison_Regular" "Martel Sans", sans-serif;
     font-size: 20px;
     color: #0d0d0d;
   }
@@ -166,7 +167,7 @@ header {
 
   .btn_header h3 {
     color: #dfff00;
-    font-family: "IntegralCF-Bold", "Russo One", sans-serif; /*BOUTON HEADER*/
+    font-family: "Garrison_Regular" "Martel Sans", sans-serif; /*BOUTON HEADER*/
     font-size: 30px;
     padding-left: 25px;
   }
@@ -193,7 +194,7 @@ header {
   }
 
   .excellence p {
-    font-family: "Garrison_Regular";
+    font-family: "Garrison_Regular" "Martel Sans", sans-serif;
     font-size: 18px;
   }
 
@@ -305,7 +306,7 @@ header {
   }
 
   .text_footer p {
-    font-family: "Garrison_Regular";
+    font-family: "Garrison_Regular" "Martel Sans", sans-serif;
     font-size: 17px;
     color: #858585;
   }
@@ -347,7 +348,7 @@ header {
 
   .bulle1 p {
     color: #b3b3b3;
-    font-family: "Garrison_Regular";
+    font-family: "Garrison_Regular" "Martel Sans", sans-serif;
     padding: 0 10px;
   }
 
@@ -371,7 +372,7 @@ header {
 
   .bulle2 p {
     color: #b3b3b3;
-    font-family: "Garrison_Regular";
+    font-family: "Garrison_Regular" "Martel Sans", sans-serif;
     padding: 0 10px;
   }
 
@@ -395,7 +396,7 @@ header {
 
   .bulle3 p {
     color: #b3b3b3;
-    font-family: "Garrison_Regular";
+    font-family: "Garrison_Regular" "Martel Sans", sans-serif;
     padding: 0 10px;
   }
 
@@ -419,7 +420,7 @@ header {
 
   .bulle4 p {
     color: #b3b3b3;
-    font-family: "Garrison_Regular";
+    font-family: "Garrison_Regular" "Martel Sans", sans-serif;
     padding: 0 10px;
   }
 
@@ -443,7 +444,7 @@ header {
 
   .bulle5 p {
     color: #b3b3b3;
-    font-family: "Garrison_Regular";
+    font-family: "Garrison_Regular" "Martel Sans", sans-serif;
     padding: 0 10px;
   }
 
@@ -467,7 +468,7 @@ header {
 
   .bulle6 p {
     color: #b3b3b3;
-    font-family: "Garrison_Regular";
+    font-family: "Garrison_Regular" "Martel Sans", sans-serif;
     padding: 0 10px;
   }
 
@@ -534,7 +535,7 @@ header {
     -ms-flex-pack: center;
     justify-content: center;
     color: #dfff00;
-    font-family: "Garrison_Regular";
+    font-family: "Garrison_Regular" "Martel Sans", sans-serif;
     font-size: 27px;
   }
 
@@ -569,7 +570,7 @@ header {
     -ms-flex-pack: center;
     justify-content: center;
     color: black;
-    font-family: "Garrison_Regular";
+    font-family: "Garrison_Regular" "Martel Sans", sans-serif;
     font-size: 27px;
     font-weight: 600;
   }
@@ -597,7 +598,7 @@ header {
   }
 
   .privacy p {
-    font-family: "Garrison_Regular";
+    font-family: "Garrison_Regular" "Martel Sans", sans-serif;
     color: #dfff00;
     font-size: 12px;
     margin: 15px;
@@ -647,7 +648,7 @@ header {
   }
 
   .excellence p {
-    font-family: "Garrison_Regular";
+    font-family: "Garrison_Regular" "Martel Sans", sans-serif;
     font-size: 16px;
   }
 

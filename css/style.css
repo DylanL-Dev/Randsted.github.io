@@ -228,7 +228,7 @@ header {
     top: 780px;
     left: 0;
     width: 100%;
-    height: 63px;
+    height: 65px;
     overflow: hidden;
     background-color: #080808;
   }
@@ -312,16 +312,9 @@ header {
   }
 
   .grid_flex {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
     align-items: center;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-
+    justify-content: space-evenly;
     margin: 10px;
   }
 
@@ -330,19 +323,13 @@ header {
   }
 
   .bulle1 {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
     align-items: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
     justify-content: center;
-    width: 63%;
+    width: 45%;
     height: 40px;
     background-color: transparent;
-    border: solid 2px #b3b3b3;
+    border: solid 2px #b3b3b360;
     border-radius: 25px;
   }
 
@@ -362,10 +349,10 @@ header {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    width: 63%;
+    width: 45%;
     height: 40px;
     background-color: transparent;
-    border: solid 2px #b3b3b3;
+    border: solid 2px #b3b3b360;
     border-radius: 25px;
     margin: 5px;
   }
@@ -386,10 +373,10 @@ header {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    width: 63%;
+    width: 45%;
     height: 40px;
     background-color: transparent;
-    border: solid 2px #b3b3b3;
+    border: solid 2px #b3b3b360;
     border-radius: 25px;
     margin: 5px;
   }
@@ -410,10 +397,10 @@ header {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    width: 63%;
+    width: 45%;
     height: 40px;
     background-color: transparent;
-    border: solid 2px #b3b3b3;
+    border: solid 2px #b3b3b360;
     border-radius: 25px;
     margin: 5px;
   }
@@ -434,10 +421,10 @@ header {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    width: 63%;
+    width: 45%;
     height: 40px;
     background-color: transparent;
-    border: solid 2px #b3b3b3;
+    border: solid 2px #b3b3b360;
     border-radius: 25px;
     margin: 5px;
   }
@@ -458,10 +445,10 @@ header {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    width: 63%;
+    width: 45%;
     height: 40px;
     background-color: transparent;
-    border: solid 2px #b3b3b3;
+    border: solid 2px #b3b3b360;
     border-radius: 25px;
     margin: 5px;
   }
@@ -518,6 +505,7 @@ header {
     -ms-flex-pack: center;
     justify-content: center;
     position: absolute;
+    margin-bottom: 15%;
     width: 82%;
     height: 75px;
     background-color: black;
@@ -556,7 +544,7 @@ header {
     border-radius: 35px;
     border: black solid 1px;
     font-weight: 600;
-    margin-top: 45%;
+    margin-top: 35%;
   }
 
   .btn_follow_2 p {
@@ -577,7 +565,7 @@ header {
 
   .name_footer {
     position: absolute;
-    margin-top: 110%;
+    margin-top: 105%;
     font-family: "IntegralCF-Bold", "Russo One", sans-serif;
     padding-right: 52%;
     color: #dfff00;
@@ -635,7 +623,7 @@ header {
 
   .grid_flex {
     /* Styles spécifiques pour les smartphones avec une largeur d'écran de 319px à 374px */
-    font-size: 12px;
+    font-size: 13px;
     width: 95%;
   }
 
@@ -678,7 +666,7 @@ header {
   }
 
   .btn_follow_2 {
-    margin-bottom: auto;
+    margin-top: 40%;
   }
   .name_footer {
     padding-right: 45% !important;

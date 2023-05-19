@@ -16,6 +16,7 @@
     />
     <link rel="stylesheet" href="css/style.css" />
     <!--END CSS-->
+    <script defer src="script.js"></script>
     <script
       defer
       src="https://kit.fontawesome.com/79857fa36d.js"
@@ -25,11 +26,29 @@
   </head>
   <body>
     <header>
+      <!--NAV MOBILE-->
+      <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+          ><i class="fa-solid fa-arrow-left"></i
+        ></a>
+        <div class="overlay-content">
+          <span class="border"><a href="html/creation.html">Création</a></span>
+          <span class="border"><a href="#">Inspiration</a></span>
+          <span class="border"><a href="#">À propos</a></span>
+          <span class="border"><a href="#">Contact</a></span>
+        </div>
+      </div>
+      <!--END NAV MOBILE-->
       <div class="name">
         <h1>Dylan LEFEBVRE</h1>
+        <!--NAV DOTE-->
+        <span class="navbar_logo" onclick="openNav()"
+          ><i class="fa-solid fa-bars"></i
+        ></span>
+        <!--END NAV DOTE-->
       </div>
       <div class="name_web_site">
-        <h2>Randsted</h2>
+        <h2>RANDSTED</h2>
         <h2 class="subtitle_header">CAMPUTER & TECHNOLOGY</h2>
       </div>
       <div class="text_header">
@@ -39,7 +58,7 @@
           intuitifs.
         </p>
       </div>
-      <a href="#"
+      <a href="mailto:contact@randsted.yn.lu"
         ><div class="btn_header">
           <h3>Discutons-en</h3>
           <i class="fa-solid fa-arrow-up"></i></div
@@ -51,10 +70,10 @@
       <!--MOBILE-->
       <div class="excellence">
         <i class="fa-solid fa-crown"></i>
-        <p>Notres Excellence</p>
+        <p>Notre Excellence</p>
 
         <i class="fa-solid fa-lightbulb"></i>
-        <p>Notres Innovation</p>
+        <p>Notre Innovation</p>
       </div>
       <div class="img_main_mobile">
         <img
@@ -87,10 +106,59 @@
           disposition afin de révéler tout leur potentiel.
         </p>
       </div>
-      <div class="bulle1">
-        <i class="fa-solid fa-globe"></i>
-        <p>Développement web</p>
+      <div class="grid_flex">
+        <div class="bulle1">
+          <i class="fa-solid fa-globe"></i>
+          <p>Développement web</p>
+        </div>
+        <div class="bulle2">
+          <i class="fa-solid fa-globe"></i>
+          <p>Site web sur-mesure</p>
+        </div>
       </div>
+
+      <div class="grid_flex">
+        <div class="bulle3">
+          <i class="fa-solid fa-globe"></i>
+          <p>Refonte de site web</p>
+        </div>
+        <div class="bulle4">
+          <i class="fa-solid fa-globe"></i>
+          <p>Réferencement SEO</p>
+        </div>
+      </div>
+
+      <div class="grid_flex">
+        <div class="bulle5">
+          <i class="fa-solid fa-globe"></i>
+          <p>Proposition design</p>
+        </div>
+        <div class="bulle6">
+          <i class="fa-solid fa-globe"></i>
+          <p>Dépannage système</p>
+        </div>
+      </div>
+      <div class="contact_bg">
+        <div class="follow_us">
+          <h3>discutons de vos idées</h3>
+        </div>
+        <div class="btn_follow">
+          <a href="mailto:contact@randsted.yn.lu">
+            <p>Discutons maintenant</p></a
+          >
+        </div>
+        <div class="btn_follow_2">
+          <a href="https://www.instagram.com/randsted_/"><p>Suivez-nous</p></a>
+        </div>
+        <div class="name_footer">
+          <h3>DYLAN LEFEBVRE</h3>
+        </div>
+      </div>
+      <div class="privacy">
+        <p>CONDITION D'UTILISATION</p>
+        <p>POLITIQUE DE CONFIDENTIALITÉ</p>
+      </div>
+
       <!--END MOBILE-->
     </footer>
   </body>

@@ -608,9 +608,17 @@ header {
     position: absolute;
     margin-top: 105%;
     font-family: "IntegralCF-Bold", "Russo One", sans-serif;
-    padding-right: 52%;
+    padding-left: 12px;
     color: #dfff00;
     font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .name_footer .logo_footer {
+    width: 30%;
+    padding-right: 25px;
   }
 
   .privacy {
@@ -633,6 +641,7 @@ header {
     margin: 15px;
   }
 }
+/*-------------------------------------------------------------------------------*/
 /*POUR LES MOBILES DE PETITE TAILLE*/
 @media screen and (min-width: 319px) and (max-width: 375px) {
   .navbar_logo {
